@@ -1,5 +1,5 @@
 # ddatabase-cache
-[![Build Status](https://travis-ci.com/andrewosh/ddatabase-cache.svg?token=WgJmQm3Kc6qzq1pzYrkx&branch=master)](https://travis-ci.com/andrewosh/ddatabase-cache)
+[![Build Status](https://travis-ci.com/DistributedWeb/ddatabase-cache.svg?branch=master)](https://travis-ci.com/DistributedWeb/ddatabase-cache.svg?branch=master)
 
 A caching module for DDatabase tree nodes and blocks.
 
@@ -12,7 +12,7 @@ npm i ddatabase-cache --save
 
 ### API
 
-#### `const cache = new HypercoreCache(opts = {})`
+#### `const cache = new DdatabaseCache(opts = {})`
 Creates a new cache.
 
 Options can include:
@@ -36,7 +36,7 @@ Deletes `key` from the cache.
 #### `const subCache = cache.namespace()`
 Creates a namespaced sub-cache which mirrors the ddatabase-cache API.
 
-This is useful if you want to create a single cache instance that manages resources for multiple hypercores.
+This is useful if you want to create a single cache instance that manages resources for multiple dwebcores.
 
 ### License
 MIT
