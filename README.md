@@ -1,7 +1,7 @@
 # ddatabase-cache
 [![Build Status](https://travis-ci.com/DistributedWeb/ddatabase-cache.svg?branch=master)](https://travis-ci.com/DistributedWeb/ddatabase-cache.svg?branch=master)
 
-A caching module for DDatabase tree nodes and blocks.
+A caching module for dDatabase tree nodes and blocks.
 
 This module mplements the [hashlru](https://github.com/dominictarr/hashlru) algorithm internally for LRU caching, but it uses byte length estimates instead of the entry count for eviction.
 
@@ -36,7 +36,7 @@ Deletes `key` from the cache.
 #### `const subCache = cache.namespace()`
 Creates a namespaced sub-cache which mirrors the ddatabase-cache API.
 
-This is useful if you want to create a single cache instance that manages resources for multiple dwebcores.
+This is useful if you want to create a single cache instance that manages resources for multiple dWebCores.
 
 ### License
 MIT
